@@ -1,0 +1,36 @@
+.App {
+  text-align: center;
+}
+
+.main-bg {
+  height: 200px;
+  background-image: url("./img/bg.png");
+  background-position: center;
+  background-size: cover;
+}
+
+.start {
+  opacity: 0;
+}
+
+.fadeAfter {
+  opacity: 1;
+  transition: all 1s;
+}
+
+.tab {
+  margin-right: 30px;
+}
+
+.tab-content {
+  color: white;
+}
+
+.before {
+  opacity: 0;
+}
+
+.after {
+  opacity: 1;
+  transition: opacity 1s;
+}
